@@ -6,7 +6,7 @@ const LatestRelease = () => (
     <Row>
       {fantasy.map((books) => (
         <Col md={3}>
-          <Card key={books.asin}>
+          <Card className="shadow-lg  mb-2 bg-light rounded" key={books.asin}>
             <Card.Img variant="top" src={books.img} />
             <Card.Body>
               <Card.Title>{books.title}</Card.Title>
