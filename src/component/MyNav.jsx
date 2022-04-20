@@ -7,7 +7,7 @@ const MyNav = () => (
     bg="secondary"
     variant="light shadow-lg bg-white rounded"
   >
-    <Navbar.Brand href="#home">🥇StriveBooks</Navbar.Brand>
+    <Navbar.Brand href="#home">📚 StriveBooks</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>
