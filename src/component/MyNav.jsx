@@ -1,7 +1,12 @@
 import { Navbar, Nav } from "react-bootstrap";
 
 const MyNav = () => (
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+  <Navbar
+    collapseOnSelect
+    expand="lg"
+    bg="secondary"
+    variant="light shadow-lg bg-white rounded"
+  >
     <Navbar.Brand href="#home">🥇StriveBooks</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
